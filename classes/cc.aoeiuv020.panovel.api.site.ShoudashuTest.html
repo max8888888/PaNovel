@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class cc.aoeiuv020.panovel.api.site.ShoudashuTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class cc.aoeiuv020.panovel.api.site.ShoudashuTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/cc.aoeiuv020.panovel.api.site.html">cc.aoeiuv020.panovel.api.site</a> &gt; ShoudashuTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">4</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.893s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="chapters"></a>
+<h3 class="failures">chapters</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: 解析[章节链接](div.chapterlist &gt; ul &gt; li &gt; a)失败，
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements(JsoupNovelContext.kt:114)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelChapterListParser.items(DslJsoupNovelContext.kt:519)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelChapterListParser.items$default(DslJsoupNovelContext.kt:502)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$5$1.invoke(shoudashu.kt:63)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$5$1.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Chapters.document(DslJsoupNovelContext.kt:476)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Chapters.document$default(DslJsoupNovelContext.kt:472)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$5.invoke(shoudashu.kt:62)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$5.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext.getNovelChaptersAsc(DslJsoupNovelContext.kt:463)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.chapters(base.kt:102)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.chapters$default(base.kt:100)
+	at cc.aoeiuv020.panovel.api.site.ShoudashuTest.chapters(ShoudashuTest.kt:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: 解析元素div.chapterlist &gt; ul &gt; li &gt; a结果为空，
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.notEmpty(JsoupNovelContext.kt:137)
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements(JsoupNovelContext.kt:112)
+	... 57 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="content"></a>
+<h3 class="failures">content</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: 解析[正文](#content)失败，
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements(JsoupNovelContext.kt:114)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelContentParser.items(DslJsoupNovelContext.kt:633)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelContentParser.items$default(DslJsoupNovelContext.kt:632)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$6$1.invoke(shoudashu.kt:71)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$6$1.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Content.document(DslJsoupNovelContext.kt:625)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Content.document$default(DslJsoupNovelContext.kt:621)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$6.invoke(shoudashu.kt:70)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$6.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext.getNovelContent(DslJsoupNovelContext.kt:609)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.content(base.kt:149)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.content(base.kt:133)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.content$default(base.kt:131)
+	at cc.aoeiuv020.panovel.api.site.ShoudashuTest.content(ShoudashuTest.kt:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: 解析元素#content结果为空，
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.notEmpty(JsoupNovelContext.kt:137)
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements(JsoupNovelContext.kt:112)
+	... 58 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="detail"></a>
+<h3 class="failures">detail</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: 解析[小说名](div.articleinfo h1)失败，
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelItemParser.name(DslJsoupNovelContext.kt:887)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelItemParser.name$default(DslJsoupNovelContext.kt:653)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$4$1$1.invoke(shoudashu.kt:54)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$4$1$1.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelDetailParser.novel(DslJsoupNovelContext.kt:379)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$4$1.invoke(shoudashu.kt:53)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$4$1.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Detail.document(DslJsoupNovelContext.kt:353)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Detail.document$default(DslJsoupNovelContext.kt:349)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$4.invoke(shoudashu.kt:52)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$4.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext.getNovelDetail(DslJsoupNovelContext.kt:340)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.detail(base.kt:68)
+	at cc.aoeiuv020.panovel.api.site.ShoudashuTest.detail(ShoudashuTest.kt:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: Required div.articleinfo h1 was null.
+	at cc.aoeiuv020.anull.NullKt.notNull(null.kt:14)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelItemParser.name(DslJsoupNovelContext.kt:885)
+	... 58 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="search"></a>
+<h3 class="failures">search</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: 解析[列表](body &gt; div.main.w &gt; ul &gt; li)失败，
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements(JsoupNovelContext.kt:114)
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements$default(JsoupNovelContext.kt:111)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelItemListParser.items(DslJsoupNovelContext.kt:325)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_NovelItemListParser.items$default(DslJsoupNovelContext.kt:320)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$3$2.invoke(shoudashu.kt:36)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$3$2.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Search.document(DslJsoupNovelContext.kt:276)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext$_Search.document$default(DslJsoupNovelContext.kt:274)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$3.invoke(shoudashu.kt:31)
+	at cc.aoeiuv020.panovel.api.site.Shoudashu$3.invoke(shoudashu.kt:10)
+	at cc.aoeiuv020.panovel.api.base.DslJsoupNovelContext.searchNovelName(DslJsoupNovelContext.kt:264)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.search(base.kt:41)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.search$default(base.kt:39)
+	at cc.aoeiuv020.panovel.api.site.ShoudashuTest.search(ShoudashuTest.kt:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: 解析元素body &gt; div.main.w &gt; ul &gt; li结果为空，
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.notEmpty(JsoupNovelContext.kt:137)
+	at cc.aoeiuv020.panovel.api.base.JsoupNovelContext.requireElements(JsoupNovelContext.kt:112)
+	... 58 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">chapters</td>
+<td class="failures">0.168s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">content</td>
+<td class="failures">0.180s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">detail</td>
+<td class="failures">0.372s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">search</td>
+<td class="failures">1.173s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>30
+NovelItem(site=手打小说网, name=都市极品神医, author=安然, extra=87/87712)
+NovelItem(site=手打小说网, name=都市潜龙之判官, author=佛弥勒, extra=119/119336)
+NovelItem(site=手打小说网, name=都市绝品医神, author=三克友, extra=95/95904)
+0/-1
+818/-1
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO Shoudashu - connect https://www.shoudashu.com/277/277083/
+[Test worker] DEBUG Shoudashu - body 
+[Test worker] DEBUG Shoudashu - load cookies []
+[Test worker] DEBUG Shoudashu - after filter cookies []
+[Test worker] DEBUG Shoudashu - response https://www.shoudashu.com/277/277083/
+[Test worker] DEBUG Shoudashu - request.headers Referer: https://www.shoudashu.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.shoudashu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Shoudashu - response.headers server: nginx
+date: Fri, 29 Apr 2022 20:08:07 GMT
+content-type: text/html
+etag: 1651262887|
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000
+
+[Test worker] INFO Shoudashu - connect https://www.shoudashu.com/modules/article/search.php?searchkey=%B6%BC%CA%D0&amp;t_btnsearch=
+[Test worker] DEBUG Shoudashu - body 
+[Test worker] DEBUG Shoudashu - load cookies []
+[Test worker] DEBUG Shoudashu - after filter cookies []
+[Test worker] DEBUG Shoudashu - save cookies [jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/]
+[Test worker] DEBUG Shoudashu - setCookies {jieqiVisitTime=jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/}
+[Test worker] DEBUG Shoudashu - response https://www.shoudashu.com/modules/article/search.php?searchkey=%B6%BC%CA%D0&amp;t_btnsearch=
+[Test worker] DEBUG Shoudashu - request.headers Referer: https://www.shoudashu.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.shoudashu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Shoudashu - response.headers server: nginx
+date: Fri, 29 Apr 2022 20:08:07 GMT
+content-type: text/html
+set-cookie: jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29-Apr-2022 21:08:07 GMT; path=/
+etag: 1651262887|
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000
+
+[Test worker] INFO Shoudashu - connect https://www.shoudashu.com/modules/article/search.php?searchkey=%B6%BC%CA%D0%D7%EE%C7%BF%BF%F1%C9%F1%CF%F4%D3%F0%C7%D8%E6%C2%E6%C2&amp;t_btnsearch=
+[Test worker] DEBUG Shoudashu - body 
+[Test worker] DEBUG Shoudashu - load cookies [jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/]
+[Test worker] DEBUG Shoudashu - after filter cookies []
+[Test worker] DEBUG Shoudashu - save cookies [jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/]
+[Test worker] DEBUG Shoudashu - setCookies {jieqiVisitTime=jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/}
+[Test worker] DEBUG Shoudashu - response https://www.shoudashu.com/modules/article/search.php?searchkey=%B6%BC%CA%D0%D7%EE%C7%BF%BF%F1%C9%F1%CF%F4%D3%F0%C7%D8%E6%C2%E6%C2&amp;t_btnsearch=
+[Test worker] DEBUG Shoudashu - request.headers Referer: https://www.shoudashu.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.shoudashu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Shoudashu - response.headers server: nginx
+date: Fri, 29 Apr 2022 20:08:08 GMT
+content-type: text/html
+set-cookie: jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29-Apr-2022 21:08:07 GMT; path=/
+etag: 1651262887|
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000
+
+[Test worker] INFO Shoudashu - connect https://www.shoudashu.com/277/277083/66921365.html
+[Test worker] DEBUG Shoudashu - body 
+[Test worker] DEBUG Shoudashu - load cookies [jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/]
+[Test worker] DEBUG Shoudashu - after filter cookies []
+[Test worker] DEBUG Shoudashu - response https://www.shoudashu.com/277/277083/66921365.html
+[Test worker] DEBUG Shoudashu - request.headers Referer: https://www.shoudashu.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.shoudashu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Shoudashu - response.headers server: nginx
+date: Fri, 29 Apr 2022 20:08:08 GMT
+content-type: text/html
+etag: 1651262888|
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000
+
+[Test worker] INFO Shoudashu - connect https://www.shoudashu.com/277/277083/
+[Test worker] DEBUG Shoudashu - body 
+[Test worker] DEBUG Shoudashu - load cookies [jieqiVisitTime=jieqiArticlesearchTime%3D1651262887; expires=Fri, 29 Apr 2022 21:08:07 GMT; path=/]
+[Test worker] DEBUG Shoudashu - after filter cookies []
+[Test worker] DEBUG Shoudashu - response https://www.shoudashu.com/277/277083/
+[Test worker] DEBUG Shoudashu - request.headers Referer: https://www.shoudashu.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.shoudashu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+If-None-Match: 1651262887|
+
+[Test worker] DEBUG Shoudashu - response.headers content-type: text/html
+server: nginx
+date: Fri, 29 Apr 2022 20:08:08 GMT
+etag: 1651262888|
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.1</a> at Apr 30, 2022, 4:09:36 AM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class cc.aoeiuv020.panovel.api.site.Biquge5200Test</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class cc.aoeiuv020.panovel.api.site.Biquge5200Test</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/cc.aoeiuv020.panovel.api.site.html">cc.aoeiuv020.panovel.api.site</a> &gt; Biquge5200Test</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.998s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">75%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="chapters"></a>
+<h3 class="failures">chapters</h3>
+<span class="code">
+<pre>java.lang.AssertionError: expected:&lt;386&gt; but was:&lt;385&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.chapters(base.kt:124)
+	at cc.aoeiuv020.panovel.api.site.BaseNovelContextText.chapters$default(base.kt:100)
+	at cc.aoeiuv020.panovel.api.site.Biquge5200Test.chapters(Biquge5200Test.kt:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">chapters</td>
+<td class="failures">0.023s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">content</td>
+<td class="success">0.364s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">detail</td>
+<td class="success">0.987s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">search</td>
+<td class="success">0.624s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>NovelDetail(novel=NovelItem(site=笔趣阁5200ge, name=柯学捡尸人, author=仙舟, extra=143123), image=http://r.m.biqu5200.net/cover/aHR0cDovL2Jvb2tjb3Zlci55dWV3ZW4uY29tL3FkYmltZy8zNDk1NzMvMTAyNTA4OTMwNy8xODA=, update=Fri Apr 29 00:00:00 CST 2022, introduction=大佬A苦口婆心：
+“你才18，人生还很长。”
+大佬B语重心长：
+“这天赋，不走正道可惜了。”
+大佬C忧心忡忡：
+“离开组织吧，你不该站在黑暗里。”
+---------------
+江夏“嗯”“是”“您说得对”应付三连，收下被发的第N张“你本来应该是个好人”卡，心累的叹了一口气。
+他明明是个心理健康、成绩优异、有理想有抱负的大好青年。
+……可是为什么所有人都在劝他改邪归正。, extra=143123)
+2022-04-29 00:00:00
+47
+NovelItem(site=笔趣阁5200ge, name=都市猎人, author=都市猎人, extra=41454)
+NovelItem(site=笔趣阁5200ge, name=都市最强保镖王, author=都市狂人1, extra=89338)
+NovelItem(site=笔趣阁5200ge, name=美女的功夫神医, author=都市小少, extra=11504)
+1
+NovelItem(site=笔趣阁5200ge, name=柯学捡尸人, author=仙舟, extra=143123)
+0/-1
+8192/-1
+16111/-1
+16288/-1
+115
+柯学捡尸人正文卷第389章高傲的名侦探江夏走神归走神，该听的也都听进了耳朵里。
+目前看来，武田家的情况和他印象当中的一样。
+——一共死了三个人。美沙母女据说是自杀，那个叫根岸的合作伙伴说是自杀，但从罗伯腿上的式神看，他是被罗伯勒死的。
+要是美沙没害羞到不敢当面询问印象、只敢找人传纸条；或者罗伯直白一点，在被问的时候大笔一挥写个love，那就是另一个故事了……
+不过，现在既然有鬼胎，说明三年前的“自杀”尚且存疑，具体怎么样还不好说。
+7017k
+1059
+NovelChapter(name=本书相关, extra=143_143123/176075793, update=null)
+NovelChapter(name=第1章 你不要多想, extra=143_143123/176075795, update=null)
+NovelChapter(name=第2章 在？借一点点鲨气, extra=143_143123/176075796, update=null)
+NovelChapter(name=1065【去陪组织玩吧】, extra=143_143123/182651997, update=Fri Apr 29 00:00:00 CST 2022)
+NovelChapter(name=1064【赤井秀一的杀气口味】, extra=143_143123/182646364, update=null)
+NovelChapter(name=1063【通往天国的倒计时】, extra=143_143123/182641546, update=null)
+NovelChapter(name=1062【一个卧底，两个卧底，三…】, extra=143_143123/182633055, update=null)
+NovelChapter(name=1061【结案】, extra=143_143123/182633054, update=null)
+NovelChapter(name=1060【来自赤井秀一的庇护】求月票ヾ(●??｀●)?～, extra=143_143123/182618413, update=null)
+NovelChapter(name=1059【江夏，乌佐克星】, extra=143_143123/182614707, update=null)
+NovelChapter(name=1058【安室透：你算计我！】, extra=143_143123/182614706, update=null)
+NovelChapter(name=1057【波本是谁的部下】, extra=143_143123/182599149, update=null)
+NovelChapter(name=1056【冲矢昴vs安室透】, extra=143_143123/182598483, update=null)
+NovelChapter(name=1055【上司的剧本】, extra=143_143123/182586583, update=null)
+NovelChapter(name=1054【死亡抚摸】求月票ヾ(●??｀●)?～, extra=143_143123/182581658, update=null)
+NovelChapter(name=1053【干部鲨手】, extra=143_143123/182573671, update=null)
+NovelChapter(name=1052【来自乌佐的致命陷阱】求月票o(〃'▽'〃)o, extra=143_143123/182559018, update=null)
+NovelChapter(name=1051【你带坏了员工】, extra=143_143123/182559017, update=null)
+NovelChapter(name=1050【你看这口锅…】, extra=143_143123/182550227, update=null)
+NovelChapter(name=1049【好脾气的干部】, extra=143_143123/182550226, update=null)
+NovelChapter(name=1048【快去找炸弹】, extra=143_143123/182537327, update=null)
+NovelChapter(name=1047【江夏，小心乌佐】求月票(づ?ど)?, extra=143_143123/182528661, update=null)
+NovelChapter(name=1046【乌佐=冲矢昴？】, extra=143_143123/182528660, update=null)
+NovelChapter(name=1045【下一个教室在哪】, extra=143_143123/182521309, update=null)
+NovelChapter(name=1044【赤井害我】, extra=143_143123/182521308, update=null)
+NovelChapter(name=1043【谢谢你送枪】, extra=143_143123/182503736, update=null)
+NovelChapter(name=1042【上司肯定喜欢】, extra=143_143123/182503735, update=null)
+NovelChapter(name=1041【名侦探的反义词】求月票o(〃'▽'〃)o, extra=143_143123/182498291, update=null)
+NovelChapter(name=1040【结案】, extra=143_143123/182498290, update=null)
+NovelChapter(name=1039【冲矢昴：乌佐的破绽！】, extra=143_143123/182486309, update=null)
+NovelChapter(name=1038【他点烟说起了从前】, extra=143_143123/182478913, update=null)
+NovelChapter(name=1037【安室透：这人有问题】, extra=143_143123/182469338, update=null)
+NovelChapter(name=1036【上司元素up】, extra=143_143123/182468266, update=null)
+NovelChapter(name=1035【老板过来玩啊】求月票o(〃'▽'〃)o, extra=143_143123/182464350, update=null)
+NovelChapter(name=1034【你也要去对面的楼啊】, extra=143_143123/182464349, update=null)
+NovelChapter(name=1033【渣渣赤井】, extra=143_143123/182454392, update=null)
+NovelChapter(name=1032【乌佐很中意你】, extra=143_143123/182454391, update=null)
+NovelChapter(name=1031【赤井秀一翻墙中】, extra=143_143123/182437382, update=null)
+NovelChapter(name=1030【奇怪的技能增加了】, extra=143_143123/182436354, update=null)
+NovelChapter(name=1029【游戏结束】 求月票o(〃'▽'〃)o, extra=143_143123/182432235, update=null)
+NovelChapter(name=1028【罕见的杀气】, extra=143_143123/182432234, update=null)
+NovelChapter(name=1027【凶手不讲武德】加更to盟主[书友2039], extra=143_143123/182432233, update=null)
+NovelChapter(name=1026【你知道得太多了】加更to盟主[书友2039], extra=143_143123/182432232, update=null)
+NovelChapter(name=1025【工藤新一的鲨气】加更to盟主[书友2039], extra=143_143123/182432231, update=null)
+NovelChapter(name=1024【不当侦探了！】 求月票ヾ(●??｀●)?～, extra=143_143123/182412675, update=null)
+NovelChapter(name=1023【试试就试试】, extra=143_143123/182412674, update=null)
+NovelChapter(name=1022【惨死的灰原哀】, extra=143_143123/182400825, update=null)
+NovelChapter(name=1021【带钥匙了吗】, extra=143_143123/182400824, update=null)
+NovelChapter(name=1020【快跑啊，npc！】, extra=143_143123/182388308, update=null)
+NovelChapter(name=1019【这里也能有杀气】, extra=143_143123/182388307, update=null)
+NovelChapter(name=1018【鬼：下克上！】 求月票o(〃'▽'〃)o, extra=143_143123/182379135, update=null)
+NovelChapter(name=1017【工藤，你看这个锅…】, extra=143_143123/182379134, update=null)
+NovelChapter(name=1016【奇怪的保姆】, extra=143_143123/182367140, update=null)
+NovelChapter(name=1015【家长：好孩子晚上不要出门】, extra=143_143123/182366573, update=null)
+NovelChapter(name=1014【姐姐什么时候来】, extra=143_143123/182360432, update=null)
+NovelChapter(name=1013【让我落单！】, extra=143_143123/182349334, update=null)
+NovelChapter(name=1012【被针对了】（月票加更）, extra=143_143123/182345765, update=null)
+NovelChapter(name=1011【成年版灰原哀】 求月票(づ?ど)?, extra=143_143123/182339182, update=null)
+NovelChapter(name=1010【狡诈的莫里亚蒂】, extra=143_143123/182337200, update=null)
+NovelChapter(name=1009【工藤新一的失踪原因】, extra=143_143123/182332609, update=null)
+NovelChapter(name=1008【莫里亚蒂教授】, extra=143_143123/182332608, update=null)
+NovelChapter(name=1007【乌佐的日常生活】, extra=143_143123/182320802, update=null)
+NovelChapter(name=1006【孤家寡人】, extra=143_143123/182314303, update=null)
+NovelChapter(name=1005【赤井or冲矢昴，这是一个问题】 求月票o(〃'▽'〃)o, extra=143_143123/182308006, update=null)
+NovelChapter(name=1004【不要滥杀无辜】, extra=143_143123/182308005, update=null)
+NovelChapter(name=1003【不要你觉得，要我觉得】, extra=143_143123/182297013, update=null)
+NovelChapter(name=1002【森谷帝二的遗留物】, extra=143_143123/182297012, update=null)
+NovelChapter(name=1001【组织的叛徒】, extra=143_143123/182278086, update=null)
+NovelChapter(name=1000【乖孩子】, extra=143_143123/182278085, update=null)
+NovelChapter(name=第999章 琴酒：你去炸楼, extra=143_143123/182267050, update=null)
+NovelChapter(name=第998章 想找你很久了, extra=143_143123/182266602, update=null)
+NovelChapter(name=第997章 你这头… 求月票( ?▽` ), extra=143_143123/182254135, update=null)
+NovelChapter(name=第996章 你夸谁事件体质呢, extra=143_143123/182253462, update=null)
+NovelChapter(name=第995章 服部：可恶的人贩子！, extra=143_143123/182241725, update=null)
+NovelChapter(name=第994章 万能的黑衣女人, extra=143_143123/182241227, update=null)
+NovelChapter(name=第993章 来自琴酒的馈赠, extra=143_143123/182229670, update=null)
+NovelChapter(name=第992章 奇怪的杀气增加了, extra=143_143123/182229237, update=null)
+NovelChapter(name=第991章 王子的末路 求月票ヽ(〃?〃)?~, extra=143_143123/182217370, update=null)
+NovelChapter(name=第990章 棺材里的同学, extra=143_143123/182217309, update=null)
+NovelChapter(name=第989章 另一个名侦探, extra=143_143123/182205786, update=null)
+NovelChapter(name=第988章 寻宝活动, extra=143_143123/182205785, update=null)
+NovelChapter(name=第987章 手上现有几瓶酒, extra=143_143123/182197233, update=null)
+NovelChapter(name=第986章 炸楼和反炸楼, extra=143_143123/182194324, update=null)
+NovelChapter(name=第985章 接近天国的大楼 求月票ヽ(〃?〃)?~, extra=143_143123/182183559, update=null)
+NovelChapter(name=第984章 弱者的运气, extra=143_143123/182183558, update=null)
+NovelChapter(name=第983章 通往天国的倒计时, extra=143_143123/182173754, update=null)
+NovelChapter(name=第982章 琴酒：炸了吧, extra=143_143123/182173072, update=null)
+NovelChapter(name=第981章 家庭新成员, extra=143_143123/182163441, update=null)
+NovelChapter(name=第980章 游戏无了, extra=143_143123/182162942, update=null)
+NovelChapter(name=第979章 江夏：我爸是卧底，一定是！ 求月票o(〃'▽'〃)o, extra=143_143123/182151923, update=null)
+NovelChapter(name=第978章 卧底也是天才, extra=143_143123/182151922, update=null)
+NovelChapter(name=第977章 琴酒，我家有卧底吗 加更to盟主[烤鱼店经理], extra=143_143123/182146041, update=null)
+NovelChapter(name=第976章 都是AI的错 加更to盟主[烤鱼店经理], extra=143_143123/182146040, update=null)
+NovelChapter(name=第975章 游戏落幕, extra=143_143123/182146039, update=null)
+NovelChapter(name=第974章 佚名的AI, extra=143_143123/182146038, update=null)
+NovelChapter(name=第973章 用户保密条款 加更to盟主[烤鱼店经理], extra=143_143123/182146037, update=null)
+NovelChapter(name=第972章 被游戏选中的人 求月票ヽ(〃?〃)?~, extra=143_143123/182146036, update=null)
+NovelChapter(name=第971章 欢迎来到死亡列车, extra=143_143123/182146035, update=null)
+NovelChapter(name=第970章 乌佐的靠谱程度, extra=143_143123/182118232, update=null)
+NovelChapter(name=第969章 我那个文武双全的秘书, extra=143_143123/182118231, update=null)
+NovelChapter(name=第968章 乌佐的暗鲨计划, extra=143_143123/182106087, update=null)
+NovelChapter(name=第967章 凑个热闹, extra=143_143123/182106086, update=null)
+NovelChapter(name=第966章 我这把刀可是… 求月票ヽ(〃?〃)?~, extra=143_143123/182094972, update=null)
+NovelChapter(name=第965章 玩家-1, extra=143_143123/182094971, update=null)
+NovelChapter(name=第964章 莫里亚蒂的嗜好, extra=143_143123/182081256, update=null)
+NovelChapter(name=第963章 园子，你安息吧, extra=143_143123/182081255, update=null)
+NovelChapter(name=第962章 莫里亚蒂是好人吗, extra=143_143123/182067774, update=null)
+NovelChapter(name=第961章 幕后的辛苦, extra=143_143123/182067773, update=null)
+NovelChapter(name=第960章 柯南：不要敌友不分！ 求月票o(〃'▽'〃)o, extra=143_143123/182056150, update=null)
+NovelChapter(name=第959章 你是AI？, extra=143_143123/182056149, update=null)
+NovelChapter(name=第958章 [莫里亚蒂]加入队伍, extra=143_143123/182046623, update=null)
+NovelChapter(name=第957章 善变的侦探, extra=143_143123/182046622, update=null)
+NovelChapter(name=第956章 boss的馈赠, extra=143_143123/182037021, update=null)
+NovelChapter(name=第955章 隐藏boss, extra=143_143123/182037020, update=null)
+NovelChapter(name=第954章 宫野姐妹重逢 求月票(〃?〃), extra=143_143123/182016029, update=null)
+NovelChapter(name=第953章 我锅我自己, extra=143_143123/182016028, update=null)
+NovelChapter(name=第952章 宫野明美牌“莫兰上校”, extra=143_143123/182011420, update=null)
+NovelChapter(name=第951章 npc不可怕, extra=143_143123/182011419, update=null)
+NovelChapter(name=第950章 奇怪的莫里亚蒂粉增加了, extra=143_143123/182011418, update=null)
+NovelChapter(name=第949章 狡诈的AI, extra=143_143123/182011417, update=null)
+NovelChapter(name=第948章 大反派江夏 求月票o(〃'▽'〃)o, extra=143_143123/182011416, update=null)
+NovelChapter(name=第947章 你是福尔摩斯！, extra=143_143123/182011415, update=null)
+NovelChapter(name=第946章 让我见见神秘人 加更to盟主[公子缺月], extra=143_143123/182011414, update=null)
+NovelChapter(name=第945章 你的良心呢 加更to盟主[公子缺月], extra=143_143123/182011413, update=null)
+NovelChapter(name=第944章 稀缺男鬼 加更to盟主[公子缺月], extra=143_143123/182011412, update=null)
+NovelChapter(name=第943章 佚名boss宣布负责（月票加更）, extra=143_143123/182011411, update=null)
+NovelChapter(name=第942章 你挂被封了（月票加更）, extra=143_143123/182011410, update=null)
+NovelChapter(name=第941章 大人当然全都要 求月票ヽ(〃?〃)?~, extra=143_143123/182011409, update=null)
+NovelChapter(name=第940章 你们被AI劫持了, extra=143_143123/182011408, update=null)
+NovelChapter(name=第939章 玩什么游戏，来破案啊, extra=143_143123/182011407, update=null)
+NovelChapter(name=第938章 另一枚徽章, extra=143_143123/182011406, update=null)
+NovelChapter(name=第937章 线索是开膛手杰克, extra=143_143123/182011405, update=null)
+NovelChapter(name=第936章 不妙的npc, extra=143_143123/182011404, update=null)
+NovelChapter(name=第935章 贝克街的亡灵 求月票o(〃'▽'〃)o, extra=143_143123/182011403, update=null)
+NovelChapter(name=第934章 契约, extra=143_143123/182011402, update=null)
+NovelChapter(name=第933章 人工智能和它的愿望 加更to盟主［超级无敌暴龙战神］, extra=143_143123/182011401, update=null)
+NovelChapter(name=第932章 假鬼的直觉 加更to盟主［超级无敌暴龙战神］, extra=143_143123/182011400, update=null)
+NovelChapter(name=第931章 找回来的姐姐 加更to盟主［超级无敌暴龙战神］, extra=143_143123/182011399, update=null)
+NovelChapter(name=第930章 优势在我, extra=143_143123/182011398, update=null)
+NovelChapter(name=第929章 诺亚快点跑, extra=143_143123/182011397, update=null)
+NovelChapter(name=第928章 乌佐vs工藤父子, extra=143_143123/181911156, update=null)
+NovelChapter(name=第927章 钓鱼请认真一点, extra=143_143123/181911155, update=null)
+NovelChapter(name=第926章 乌佐的枪 求月票ヽ(〃?〃)?~, extra=143_143123/181898433, update=null)
+NovelChapter(name=第925章 别吃瓜了，干活, extra=143_143123/181898432, update=null)
+NovelChapter(name=第924章 十九世纪的伦敦, extra=143_143123/181887982, update=null)
+NovelChapter(name=第923章 你才是AI, extra=143_143123/181887981, update=null)
+NovelChapter(name=第922章 诺亚：抓个江夏压压惊 求月票o(〃'▽'〃)o, extra=143_143123/181880843, update=null)
+NovelChapter(name=第921章 外围成员, extra=143_143123/181880842, update=null)
+NovelChapter(name=第920章 藏在会场里的鬼, extra=143_143123/181864970, update=null)
+NovelChapter(name=第919章 组织的未来, extra=143_143123/181864969, update=null)
+NovelChapter(name=第918章 肮脏的侦探 加更to盟主【月孤城】, extra=143_143123/181864968, update=null)
+NovelChapter(name=第917章 全息游戏 求月票(〃?〃), extra=143_143123/181847302, update=null)
+NovelChapter(name=第916章 目标出现, extra=143_143123/181847301, update=null)
+NovelChapter(name=第915章 琴酒，再多给点人吧, extra=143_143123/181830951, update=null)
+NovelChapter(name=第914章 只能帮到这里了, extra=143_143123/181830950, update=null)
+NovelChapter(name=第913章 谜语人工藤优作, extra=143_143123/181819384, update=null)
+NovelChapter(name=第912章 你说的那个朋友, extra=143_143123/181819383, update=null)
+NovelChapter(name=第911章 大哥，我没被乌佐污染！ 求月票(???〃 ), extra=143_143123/181807100, update=null)
+NovelChapter(name=第910章 好同事, extra=143_143123/181807099, update=null)
+NovelChapter(name=第909章 伏特加：你去害波本, extra=143_143123/181797242, update=null)
+NovelChapter(name=第908章 真不是要打人, extra=143_143123/181796516, update=null)
+NovelChapter(name=第907章 你不要再钓了 加更to盟主【月孤城】, extra=143_143123/181796515, update=null)
+NovelChapter(name=第906章 自鲨禁止 加更to盟主【月孤城】, extra=143_143123/181796514, update=null)
+NovelChapter(name=第905章 “爸！组织盯上江夏了！” 求月票(σ≧?▽?≦?)σ, extra=143_143123/181786003, update=null)
+NovelChapter(name=第904章 一定有阴谋, extra=143_143123/181786002, update=null)
+NovelChapter(name=第903章 放过经纪人吧 加更to盟主【Vampire、永恒】, extra=143_143123/181786001, update=null)
+NovelChapter(name=第902章 名侦探伏特加, extra=143_143123/181780136, update=null)
+NovelChapter(name=第901章 警惕链, extra=143_143123/181774599, update=null)
+NovelChapter(name=第900章 组织的美人计, extra=143_143123/181763123, update=null)
+NovelChapter(name=第899章 感受我的痛苦吧, extra=143_143123/181763122, update=null)
+NovelChapter(name=第898章 组织浓度过高 求月票o(〃'▽'〃)o, extra=143_143123/181751647, update=null)
+NovelChapter(name=第897章 不要乱收小弟啊, extra=143_143123/181751646, update=null)
+NovelChapter(name=第896章 柯南：伏特加！离江夏远点！, extra=143_143123/181740599, update=null)
+NovelChapter(name=第895章 试图上岗, extra=143_143123/181740598, update=null)
+NovelChapter(name=第894章 都是他的错, extra=143_143123/181729749, update=null)
+NovelChapter(name=第893章 专业人士, extra=143_143123/181729748, update=null)
+NovelChapter(name=第892章 救人使者 求月票(? ??` ?), extra=143_143123/181722060, update=null)
+NovelChapter(name=第891章 跟踪狂怎么还不来, extra=143_143123/181719561, update=null)
+NovelChapter(name=第890章 乌佐的优良风评, extra=143_143123/181707140, update=null)
+NovelChapter(name=第889章 来了来了, extra=143_143123/181707139, update=null)
+NovelChapter(name=第888章 你争气一点, extra=143_143123/181697274, update=null)
+NovelChapter(name=第887章 篡位计划, extra=143_143123/181697273, update=null)
+NovelChapter(name=第886章 你们怎么也来了 求月票o(〃'▽'〃)o, extra=143_143123/181688600, update=null)
+NovelChapter(name=第885章 人给你逮来了, extra=143_143123/181688599, update=null)
+NovelChapter(name=第884章 卖身还债, extra=143_143123/181679920, update=null)
+NovelChapter(name=第883章 你暗算我, extra=143_143123/181677719, update=null)
+NovelChapter(name=第882章 伏特加：我已然看破一切, extra=143_143123/181668407, update=null)
+NovelChapter(name=第881章 我真的不想死, extra=143_143123/181668406, update=null)
+NovelChapter(name=第880章 乌佐的糖衣炮弹 求月票(σ≧?▽?≦?)σ, extra=143_143123/181658753, update=null)
+NovelChapter(name=第879章 中二计划, extra=143_143123/181658752, update=null)
+NovelChapter(name=第878章 金牌伏特加-新年快乐！, extra=143_143123/181656518, update=null)
+NovelChapter(name=第877章 换个签名吧-除夕快乐！, extra=143_143123/181656517, update=null)
+NovelChapter(name=第876章 让我看看乌佐都在想什么, extra=143_143123/181648344, update=null)
+NovelChapter(name=第875章 跟踪狂, extra=143_143123/181648343, update=null)
+NovelChapter(name=第874章 伏特加的鲨心, extra=143_143123/181637394, update=null)
+NovelChapter(name=第873章 别再给我加设定了, extra=143_143123/181637393, update=null)
+NovelChapter(name=第872章 上吧 求月票ヽ(〃?〃)?~, extra=143_143123/181624751, update=null)
+NovelChapter(name=第871章 新人设, extra=143_143123/181624750, update=null)
+NovelChapter(name=第870章 伏特加，勇敢一点, extra=143_143123/181613403, update=null)
+NovelChapter(name=第869章 我不想去, extra=143_143123/181613402, update=null)
+NovelChapter(name=第868章 奇怪的队友增加了, extra=143_143123/181601519, update=null)
+NovelChapter(name=第867章 黑猫和厄运, extra=143_143123/181601518, update=null)
+NovelChapter(name=第866章 这是妖怪吧 求月票o(〃'▽'〃)o, extra=143_143123/181589720, update=null)
+NovelChapter(name=第865章 武道巅峰, extra=143_143123/181589719, update=null)
+NovelChapter(name=第864章 决战！, extra=143_143123/181584850, update=null)
+NovelChapter(name=第863章 小侦探一个人啊, extra=143_143123/181577550, update=null)
+NovelChapter(name=第862章 猫有什么用 加更to盟主【Vampire、永恒】, extra=143_143123/181577549, update=null)
+NovelChapter(name=第861章 在？看看剩余价值 加更to盟主【Vampire、永恒】, extra=143_143123/181577548, update=null)
+NovelChapter(name=第859章 你能变身吗, extra=143_143123/181566204, update=null)
+NovelChapter(name=第858章 假货 加更to盟主【撼山印】, extra=143_143123/181566203, update=null)
+NovelChapter(name=第857章 恶人怪盗 加更to盟主【撼山印】, extra=143_143123/181566202, update=null)
+NovelChapter(name=第856章 基德？不，我是工藤新一 加更to盟主【撼山印】, extra=143_143123/181566201, update=null)
+NovelChapter(name=第855章 空中事故 求月票ヽ(〃?〃)?~, extra=143_143123/181554958, update=null)
+NovelChapter(name=第854章 真男人就要骑豹子, extra=143_143123/181554957, update=null)
+NovelChapter(name=第853章 伏特加：大哥！我不走！ 加更to盟主【忘了我的未来】, extra=143_143123/181554956, update=null)
+NovelChapter(name=第852章 贝尔摩德风评被害 加更to盟主【忘了我的未来】, extra=143_143123/181554955, update=null)
+NovelChapter(name=第851章 锅背稳了 加更to盟主【忘了我的未来】, extra=143_143123/181554954, update=null)
+NovelChapter(name=第850章 可疑的老板增加了 求月票?(? ? ?), extra=143_143123/181542829, update=null)
+NovelChapter(name=第849章 马甲绞肉机, extra=143_143123/181542828, update=null)
+NovelChapter(name=第848章 听说你想当幕后黑手？ 求月票o(〃'▽'〃)o, extra=143_143123/181530110, update=null)
+NovelChapter(name=第847章 她有问题, extra=143_143123/181530109, update=null)
+NovelChapter(name=第846章 这一定是乌佐的陷阱, extra=143_143123/181519546, update=null)
+NovelChapter(name=第845章 看江夏要擦亮眼睛, extra=143_143123/181519545, update=null)
+NovelChapter(name=第844章 贝尔摩德：你们清醒一点, extra=143_143123/181507347, update=null)
+NovelChapter(name=第843章 都是你干的, extra=143_143123/181507346, update=null)
+NovelChapter(name=第842章 乌佐的人生观 求月票ヽ(〃?〃)?~, extra=143_143123/181496594, update=null)
+NovelChapter(name=第841章 不是记仇，是记性好, extra=143_143123/181496593, update=null)
+NovelChapter(name=第840章 你好好开车, extra=143_143123/181485673, update=null)
+NovelChapter(name=第839章 你都偷偷干了什么, extra=143_143123/181485672, update=null)
+NovelChapter(name=第838章 乌佐，侦探之友, extra=143_143123/181472639, update=null)
+NovelChapter(name=第837章 这个女朋友好像还行, extra=143_143123/181472638, update=null)
+NovelChapter(name=第836章 伏特加，江夏找你出去玩 求月票ヾ(????)?, extra=143_143123/181462137, update=null)
+NovelChapter(name=第835章 热爱生命的侦探, extra=143_143123/181462136, update=null)
+NovelChapter(name=第834章 交给江夏老弟吧 加更to盟主【君莫惜rx舞】, extra=143_143123/181462135, update=null)
+NovelChapter(name=第833章 古怪乘客 加更to盟主【君莫惜rx舞】, extra=143_143123/181462134, update=null)
+NovelChapter(name=第832章 危险的身边人 加更to盟主【君莫惜rx舞】, extra=143_143123/181462133, update=null)
+NovelChapter(name=第831章 不能主动跳进剧本, extra=143_143123/181451016, update=null)
+NovelChapter(name=第830章 礼貌的观众, extra=143_143123/181451015, update=null)
+NovelChapter(name=第829章 贝尔摩德：怎么连angel也不放过！ 求月票(? ??` ?), extra=143_143123/181438663, update=null)
+NovelChapter(name=第828章 干部battle, extra=143_143123/181438662, update=null)
+NovelChapter(name=第827章 别鲨毛利小五郎 求月票(?????), extra=143_143123/181427452, update=null)
+NovelChapter(name=第826章 你想干什么？, extra=143_143123/181427451, update=null)
+NovelChapter(name=第825章 我只是看了他一眼…, extra=143_143123/181413915, update=null)
+NovelChapter(name=第824章 你要开始了吗, extra=143_143123/181413914, update=null)
+NovelChapter(name=第823章 请对组织尊重一点, extra=143_143123/181403108, update=null)
+NovelChapter(name=第822章 易容难题, extra=143_143123/181403107, update=null)
+NovelChapter(name=第821章 你去鲨波本 求月票o(〃'▽'〃)o, extra=143_143123/181391350, update=null)
+NovelChapter(name=第820章 你不对劲, extra=143_143123/181391349, update=null)
+NovelChapter(name=第819章 给乌佐一个支点, extra=143_143123/181382068, update=null)
+NovelChapter(name=第818章 部下和部下, extra=143_143123/181382067, update=null)
+NovelChapter(name=第817章 这是我的猫, extra=143_143123/181367791, update=null)
+NovelChapter(name=第816章 路过的琴酒, extra=143_143123/181367790, update=null)
+NovelChapter(name=第815章 你们再挣扎一下吧, extra=143_143123/181356502, update=null)
+NovelChapter(name=第814章 希望人质摆清态度, extra=143_143123/181356501, update=null)
+NovelChapter(name=第813章 证人都无了 求月票(?????), extra=143_143123/181344444, update=null)
+NovelChapter(name=第812章 感动米花町, extra=143_143123/181344443, update=null)
+NovelChapter(name=第811章 江夏病毒恐怖如斯（ 月票加更）, extra=143_143123/181332953, update=null)
+NovelChapter(name=第810章 无敌光环不惧车祸, extra=143_143123/181332952, update=null)
+NovelChapter(name=第809章 问题不大, extra=143_143123/181332951, update=null)
+NovelChapter(name=第808章 冲矢昴：好惨一侦探 求月票ヾ(????)?, extra=143_143123/181320852, update=null)
+NovelChapter(name=第807章 你碰得好熟练, extra=143_143123/181320851, update=null)
+NovelChapter(name=第806章 琴酒：没有完美的部下, extra=143_143123/181320850, update=null)
+NovelChapter(name=第805章 鲨人好像要报备, extra=143_143123/181310012, update=null)
+NovelChapter(name=第804章 堕落的组织, extra=143_143123/181296910, update=null)
+NovelChapter(name=第803章 组织任务的完成方式, extra=143_143123/181296909, update=null)
+NovelChapter(name=第802章 江夏你绑走了谁, extra=143_143123/181284319, update=null)
+NovelChapter(name=第801章 说话要讲鲨气, extra=143_143123/181284318, update=null)
+NovelChapter(name=第800章 是乌佐抢了你的猫, extra=143_143123/181272384, update=null)
+NovelChapter(name=第799章 fbi的推理, extra=143_143123/181272383, update=null)
+NovelChapter(name=第798章 赤井秀一：乌佐和琴酒是死敌 求月票(づ?ど)?, extra=143_143123/181258721, update=null)
+NovelChapter(name=第797章 脑补的传播, extra=143_143123/181258720, update=null)
+NovelChapter(name=第796章 乌佐的猫, extra=143_143123/181246137, update=null)
+NovelChapter(name=第795章 熟人早就死完了, extra=143_143123/181246136, update=null)
+NovelChapter(name=第794章 琴酒：伏特加还不如猫, extra=143_143123/181233938, update=null)
+NovelChapter(name=第793章 赤井秀一帽子之谜, extra=143_143123/181233937, update=null)
+NovelChapter(name=第792章 乌佐对黑客一无所知, extra=143_143123/181223404, update=null)
+NovelChapter(name=第791章 跟踪技巧, extra=143_143123/181223403, update=null)
+NovelChapter(name=第790章 结案 求月票ヾ(????)?, extra=143_143123/181210248, update=null)
+NovelChapter(name=第789章 神仙打架离我远点, extra=143_143123/181210247, update=null)
+NovelChapter(name=第788章 乌佐候选人增加了, extra=143_143123/181198507, update=null)
+NovelChapter(name=第787章 你站在桥上看风景, extra=143_143123/181198506, update=null)
+NovelChapter(name=第786章 侦探界的阴暗规则, extra=143_143123/181184703, update=null)
+NovelChapter(name=第785章 你周围到底死了多少人, extra=143_143123/181184702, update=null)
+NovelChapter(name=第784章 江夏和乌佐绝无关系 求月票o(〃'▽'〃)o, extra=143_143123/181170341, update=null)
+NovelChapter(name=第783章 扒完马甲了, extra=143_143123/181170340, update=null)
+NovelChapter(name=第782章 灰原哀：组织的肮脏勾当, extra=143_143123/181154271, update=null)
+NovelChapter(name=第781章 你到底有多少熟人, extra=143_143123/181154270, update=null)
+NovelChapter(name=第780章 扒江夏的马甲，和乌佐有什么关系, extra=143_143123/181141650, update=null)
+NovelChapter(name=第779章 融入佚名的步骤, extra=143_143123/181141649, update=null)
+NovelChapter(name=第778章 狼狈为奸 求月票(? ??` ?), extra=143_143123/181129449, update=null)
+NovelChapter(name=第777章 你知道得太多了, extra=143_143123/181129448, update=null)
+NovelChapter(name=第776章 仁慈的乌佐, extra=143_143123/181117216, update=null)
+NovelChapter(name=第775章 我被洗脑了！, extra=143_143123/181117215, update=null)
+NovelChapter(name=第774章 逐渐乌佐化, extra=143_143123/181103877, update=null)
+NovelChapter(name=第773章 消失的安室透, extra=143_143123/181103876, update=null)
+NovelChapter(name=第772章 部下真的很守法 求月票ヾ(●??｀●)?～, extra=143_143123/181091436, update=null)
+NovelChapter(name=第771章 我会了, extra=143_143123/181091435, update=null)
+NovelChapter(name=第770章 冲矢昴：乌佐是不是要埋我 求月票( ?▽` ), extra=143_143123/181080149, update=null)
+NovelChapter(name=第769章 换副眼镜吧, extra=143_143123/181080148, update=null)
+NovelChapter(name=第768章 任务教学 加更to盟主【兮雅离】, extra=143_143123/181080147, update=null)
+NovelChapter(name=第767章 乌佐是个好人啊, extra=143_143123/181067377, update=null)
+NovelChapter(name=第766章 跟踪狂, extra=143_143123/181067376, update=null)
+NovelChapter(name=第765章 冲矢昴：乌佐是个骗子 求月票(づ?ど)?, extra=143_143123/181055562, update=null)
+NovelChapter(name=第764章 你不会鲨人？真巧，我也不会, extra=143_143123/181055561, update=null)
+NovelChapter(name=第763章 赤井秀一突然出现, extra=143_143123/181044825, update=null)
+NovelChapter(name=第762章 不要背后说坏话, extra=143_143123/181044824, update=null)
+NovelChapter(name=第761章 灰原哀：佚名连猫都不放过！, extra=143_143123/181034547, update=null)
+NovelChapter(name=第760章 入室, extra=143_143123/181034546, update=null)
+NovelChapter(name=第759章 嫖徽章活动最后一天 求月票(? ??` ?), extra=143_143123/181025341, update=null)
+NovelChapter(name=第758章 新傀儡, extra=143_143123/181021553, update=null)
+NovelChapter(name=第757章 江夏不讲武德, extra=143_143123/181010523, update=null)
+NovelChapter(name=第756章 小黑的末日, extra=143_143123/181010522, update=null)
+NovelChapter(name=第755章 挖个陷阱吧 求月票(?????), extra=143_143123/180999696, update=null)
+NovelChapter(name=第754章 妖魔鬼怪快离开, extra=143_143123/180999695, update=null)
+NovelChapter(name=第753章 隐藏boss 加更to盟主【兮雅离】, extra=143_143123/180999694, update=null)
+NovelChapter(name=第752章 灰原哀懂了 加更to盟主【兮雅离】, extra=143_143123/180999693, update=null)
+NovelChapter(name=第751章 cosplay 加更to盟主【日月葫】, extra=143_143123/180999692, update=null)
+NovelChapter(name=第750章 正确的偶遇方式, extra=143_143123/180988635, update=null)
+NovelChapter(name=第749章 可疑的冲矢昴, extra=143_143123/180988634, update=null)
+NovelChapter(name=第748章 猫马甲虽迟但到 求月票ヾ(????)?, extra=143_143123/180976680, update=null)
+NovelChapter(name=第747章 熟猫, extra=143_143123/180976679, update=null)
+NovelChapter(name=第746章 奇怪的鬼胎出现了, extra=143_143123/180964496, update=null)
+NovelChapter(name=第745章 灰原哀突然出现, extra=143_143123/180964495, update=null)
+NovelChapter(name=第744章 工藤的一千种死法, extra=143_143123/180952677, update=null)
+NovelChapter(name=第743章 异界剧本鲨, extra=143_143123/180952676, update=null)
+NovelChapter(name=第742章 松田的奇怪技能 求月票(づ?ど)?, extra=143_143123/180942439, update=null)
+NovelChapter(name=第741章 你是个成熟的灯泡了, extra=143_143123/180942438, update=null)
+NovelChapter(name=第740章 丧失初吻的步骤, extra=143_143123/180931433, update=null)
+NovelChapter(name=第739章 柔弱的毛利兰, extra=143_143123/180931432, update=null)
+NovelChapter(name=第738章 谋杀上司未遂, extra=143_143123/180914764, update=null)
+NovelChapter(name=第737章 车祸现场, extra=143_143123/180914763, update=null)
+NovelChapter(name=第736章 撞倒乌佐怎么办 求月票ヾ(●??｀●)?～, extra=143_143123/180900955, update=null)
+NovelChapter(name=第735章 怎么又到情人节了, extra=143_143123/180900954, update=null)
+NovelChapter(name=第734章 赤井秀一的多种用法, extra=143_143123/180887120, update=null)
+NovelChapter(name=第733章 灰原哀的日常, extra=143_143123/180887119, update=null)
+NovelChapter(name=第732章 灰原哀：组织成员又双叒变多了, extra=143_143123/180875881, update=null)
+NovelChapter(name=第731章 新装备, extra=143_143123/180875880, update=null)
+NovelChapter(name=第730章 组织的新武器 求月票o(〃'▽'〃)o, extra=143_143123/180865383, update=null)
+NovelChapter(name=第729章 准备偷人, extra=143_143123/180865382, update=null)
+NovelChapter(name=第728章 乌佐，鲨了他, extra=143_143123/180854235, update=null)
+NovelChapter(name=第727章 奇怪的人渣上司增加了, extra=143_143123/180854234, update=null)
+NovelChapter(name=第726章 新部下·赤井秀一？, extra=143_143123/180842445, update=null)
+NovelChapter(name=第725章 不愧是你, extra=143_143123/180842444, update=null)
+NovelChapter(name=第724章 乌佐的熟人新部下 求月票(? ??` ?), extra=143_143123/180829028, update=null)
+NovelChapter(name=第723章 你好屑啊, extra=143_143123/180829027, update=null)
+NovelChapter(name=第722章 琴酒vs松田, extra=143_143123/180818862, update=null)
+NovelChapter(name=第721章 敬业的宫野明美, extra=143_143123/180818861, update=null)
+NovelChapter(name=第720章 琴酒的战场, extra=143_143123/180807425, update=null)
+NovelChapter(name=第719章 和平大使乌佐, extra=143_143123/180807424, update=null)
+NovelChapter(name=第718章 你要当个好人, extra=143_143123/180795442, update=null)
+NovelChapter(name=第717章 前领导的风险, extra=143_143123/180795441, update=null)
+NovelChapter(name=第716章 工具人恐怖如斯 求月票(?????), extra=143_143123/180783454, update=null)
+NovelChapter(name=第715章 同归于尽的准备, extra=143_143123/180783453, update=null)
+NovelChapter(name=第714章 琴酒：西图好像也还行, extra=143_143123/180756867, update=null)
+NovelChapter(name=第713章 低调的组织二代, extra=143_143123/180756866, update=null)
+NovelChapter(name=第712章 替身乌佐, extra=143_143123/180745970, update=null)
+NovelChapter(name=第711章 奇怪的部下即将增加, extra=143_143123/180745969, update=null)
+NovelChapter(name=第710章 来看新武器 求月票o(〃'▽'〃)o, extra=143_143123/180736765, update=null)
+NovelChapter(name=第709章 放过波本吧, extra=143_143123/180736764, update=null)
+NovelChapter(name=第708章 没有人比我更懂乌佐, extra=143_143123/180725621, update=null)
+NovelChapter(name=第707章 决胜时刻, extra=143_143123/180725620, update=null)
+NovelChapter(name=第706章 付出了太多, extra=143_143123/180715849, update=null)
+NovelChapter(name=第705章 应对方案, extra=143_143123/180715848, update=null)
+NovelChapter(name=第704章 琴酒我来看看你 求月票(?????), extra=143_143123/180706277, update=null)
+NovelChapter(name=第703章 放过医生吧, extra=143_143123/180706276, update=null)
+NovelChapter(name=第702章 来人，送几个医生过去（补更）, extra=143_143123/180706275, update=null)
+NovelChapter(name=第701章 调查结论（补更）, extra=143_143123/180706274, update=null)
+NovelChapter(name=第700章 跑路的安室透, extra=143_143123/180696289, update=null)
+NovelChapter(name=第699章 人呢？, extra=143_143123/180696288, update=null)
+NovelChapter(name=第698章 you-know-who 求月票??, extra=143_143123/180696287, update=null)
+NovelChapter(name=第697章 月黑风高时适合做什么（补更）, extra=143_143123/180696286, update=null)
+NovelChapter(name=第696章 旅途的终点, extra=143_143123/180683892, update=null)
+NovelChapter(name=第695章 慢点跑, extra=143_143123/180683891, update=null)
+NovelChapter(name=第694章 阴魂不散的变态, extra=143_143123/180678374, update=null)
+NovelChapter(name=第693章 友军？什么友军, extra=143_143123/180678373, update=null)
+NovelChapter(name=第692章 靠谱的贝尔摩德 求月票(? ??` ?), extra=143_143123/180673526, update=null)
+NovelChapter(name=第691章 下线, extra=143_143123/180673525, update=null)
+NovelChapter(name=第690章 最后一案, extra=143_143123/180673524, update=null)
+NovelChapter(name=第689章 你根本不懂死神, extra=143_143123/180673523, update=null)
+NovelChapter(name=第688章 戈登心里咯噔了一下, extra=143_143123/180673522, update=null)
+NovelChapter(name=第687章 不同马甲的用法, extra=143_143123/180673521, update=null)
+NovelChapter(name=第686章 我的六十大军呢 求月票(?????), extra=143_143123/180673520, update=null)
+NovelChapter(name=第685章 去吧，松田球, extra=143_143123/180673519, update=null)
+NovelChapter(name=第684章 标准流程, extra=143_143123/180673518, update=null)
+NovelChapter(name=第683章 你们是来送菜的吗, extra=143_143123/180673517, update=null)
+NovelChapter(name=第682章 不是出差是度假, extra=143_143123/180673516, update=null)
+NovelChapter(name=第681章 热情的乌佐 求月票(〃?〃), extra=143_143123/180673515, update=null)
+NovelChapter(name=第680章 残骸, extra=143_143123/180673514, update=null)
+NovelChapter(name=第679章 如何正确使用代号干部, extra=143_143123/180673513, update=null)
+NovelChapter(name=第678章 互相丢锅, extra=143_143123/180673512, update=null)
+NovelChapter(name=第677章 纰漏（补更）, extra=143_143123/180673511, update=null)
+NovelChapter(name=第676章 铃木·贝尔摩德·园子, extra=143_143123/180673510, update=null)
+NovelChapter(name=第675章 奇怪的组织名字, extra=143_143123/180673509, update=null)
+NovelChapter(name=第674章 组织的双标性 求月票(?????), extra=143_143123/180673508, update=null)
+NovelChapter(name=第673章 琴酒：拒绝养蛊, extra=143_143123/180673507, update=null)
+NovelChapter(name=第672章 鬼没有良心, extra=143_143123/180673506, update=null)
+NovelChapter(name=第671章 三换一, extra=143_143123/180673505, update=null)
+NovelChapter(name=第670章 组织雷达·弱化版, extra=143_143123/180673504, update=null)
+NovelChapter(name=第669章 锅和名声分一分, extra=143_143123/180673503, update=null)
+NovelChapter(name=第668章 贝尔摩德觉得不行 求月票(づ?ど)?, extra=143_143123/180673502, update=null)
+NovelChapter(name=第667章 热闹起来了, extra=143_143123/180673501, update=null)
+NovelChapter(name=第666章 太倔强是不行的, extra=143_143123/180673500, update=null)
+NovelChapter(name=第665章 警部补的末日, extra=143_143123/180673499, update=null)
+NovelChapter(name=第664章 你很耐吓的样子, extra=143_143123/180673498, update=null)
+NovelChapter(name=第663章 来个驱鬼的, extra=143_143123/180673497, update=null)
+NovelChapter(name=第662章 多种面孔 求月票(〃?〃), extra=143_143123/180456651, update=null)
+NovelChapter(name=第661章 制造命案的一百种方式, extra=143_143123/180456650, update=null)
+NovelChapter(name=第660章 安室透≈乌佐, extra=143_143123/180456649, update=null)
+NovelChapter(name=第659章 部下借我用用, extra=143_143123/180456648, update=null)
+NovelChapter(name=第658章 乌佐行为和江夏无关, extra=143_143123/180456647, update=null)
+NovelChapter(name=第657章 你是鬼吗, extra=143_143123/180456646, update=null)
+NovelChapter(name=第656章 你晚上干了什么？ 求月票o(〃'▽'〃)o, extra=143_143123/180419998, update=null)
+NovelChapter(name=第655章 诈尸！, extra=143_143123/180419997, update=null)
+NovelChapter(name=第654章 江夏你死得好惨啊, extra=143_143123/180405630, update=null)
+NovelChapter(name=第653章 公安鲨人事件, extra=143_143123/180405629, update=null)
+NovelChapter(name=第652章 你们不要过来啊, extra=143_143123/180399118, update=null)
+NovelChapter(name=第651章 守法公民, extra=143_143123/180392455, update=null)
+NovelChapter(name=第650章 乌佐他不想杀人 求月票(〃?〃), extra=143_143123/180380150, update=null)
+NovelChapter(name=第649章 人鱼之怒, extra=143_143123/180380149, update=null)
+NovelChapter(name=第648章 打起来打起来, extra=143_143123/180370269, update=null)
+NovelChapter(name=第647章 醒醒，起床加班了, extra=143_143123/180370268, update=null)
+NovelChapter(name=第646章 冒牌货江夏, extra=143_143123/180354478, update=null)
+NovelChapter(name=第645章 同归于尽, extra=143_143123/180354477, update=null)
+NovelChapter(name=第644章 红衣厉鬼 求月票☆, extra=143_143123/180328702, update=null)
+NovelChapter(name=第643章 命中注定的相遇, extra=143_143123/180328701, update=null)
+NovelChapter(name=第642章 这是你掉的地藏吗, extra=143_143123/180328700, update=null)
+NovelChapter(name=第641章 不要摸鱼 加更to盟主【日月葫】, extra=143_143123/180328699, update=null)
+NovelChapter(name=第640章 结束了吗 加更to盟主【日月葫】, extra=143_143123/180328698, update=null)
+NovelChapter(name=第639章 胜利在望, extra=143_143123/180271294, update=null)
+NovelChapter(name=第638章 灭口怎么能不关门呢 求月票(???〃 )?, extra=143_143123/180264305, update=null)
+NovelChapter(name=第637章 剧本进行时, extra=143_143123/180264304, update=null)
+NovelChapter(name=第636章 安室透，下线, extra=143_143123/180252759, update=null)
+NovelChapter(name=第635章 节能模式, extra=143_143123/180252758, update=null)
+NovelChapter(name=第634章 伏法吧，江夏 求月票(づ?ど)?, extra=143_143123/180249222, update=null)
+NovelChapter(name=第633章 放我回去, extra=143_143123/180244907, update=null)
+NovelChapter(name=第632章 请离我们远一点 加更to盟主【张云龙mmc】, extra=143_143123/180244906, update=null)
+NovelChapter(name=第631章 稳住，我能赢 加更to盟主【张云龙mmc】, extra=143_143123/180244905, update=null)
+NovelChapter(name=第630章 来点狗血吧 加更to盟主【张云龙mmc】, extra=143_143123/180244904, update=null)
+NovelChapter(name=第629章 琴酒和安室透怎么选 求月票?(●??`●)??, extra=143_143123/180235623, update=null)
+NovelChapter(name=第628章 你演技真好, extra=143_143123/180235622, update=null)
+NovelChapter(name=第627章 我没有袭警, extra=143_143123/180227046, update=null)
+NovelChapter(name=第626章 法外狂徒, extra=143_143123/180227045, update=null)
+NovelChapter(name=第625章 这不是我的剧本 求月票ヾ(????)?~, extra=143_143123/180217321, update=null)
+NovelChapter(name=第624章 真的是自杀？, extra=143_143123/180217320, update=null)
+NovelChapter(name=第623章 老板撑住啊, extra=143_143123/180208907, update=null)
+NovelChapter(name=第622章 组织成员诱捕器, extra=143_143123/180208906, update=null)
+NovelChapter(name=第621章 神秘的人质, extra=143_143123/180200925, update=null)
+NovelChapter(name=第620章 举世皆敌, extra=143_143123/180200924, update=null)
+NovelChapter(name=第619章 我觉得还能抢救一下 求月票(σ≧?▽?≦?)σ, extra=143_143123/180193159, update=null)
+NovelChapter(name=第618章 事件体质是无辜的, extra=143_143123/180193158, update=null)
+NovelChapter(name=第617章 你被乌佐截胡了, extra=143_143123/180188031, update=null)
+NovelChapter(name=第616章 干部竟在我身边, extra=143_143123/180188030, update=null)
+NovelChapter(name=第615章 先抓安室透 加更to盟主【不合道不改名】, extra=143_143123/180188029, update=null)
+NovelChapter(name=第614章 你是谁啊 加更to盟主【不合道不改名】, extra=143_143123/180188028, update=null)
+NovelChapter(name=第613章 嗨，波本 求月票~\(≧▽≦)/~, extra=143_143123/180176081, update=null)
+NovelChapter(name=第612章 黄昏别馆→黄金別馆, extra=143_143123/180176080, update=null)
+NovelChapter(name=第611章 黑泽，你就是基德对吧, extra=143_143123/180167153, update=null)
+NovelChapter(name=第610章 区分江夏和乌佐的正确方法, extra=143_143123/180167152, update=null)
+NovelChapter(name=第609章 揪住乌佐的尾巴, extra=143_143123/180158559, update=null)
+NovelChapter(name=第608章 谁才是真的主办人啊, extra=143_143123/180158558, update=null)
+NovelChapter(name=第607章 恭喜生还（月票加更）, extra=143_143123/180156690, update=null)
+NovelChapter(name=第606章 死去的江夏 求月票( ?▽` ), extra=143_143123/180146931, update=null)
+NovelChapter(name=第605章 断气进行时, extra=143_143123/180146930, update=null)
+NovelChapter(name=第604章 死前留言 加更to盟主【不合道不改名】, extra=143_143123/180146929, update=null)
+NovelChapter(name=第603章 善良的乌佐, extra=143_143123/180139047, update=null)
+NovelChapter(name=第602章 杀气，重点是杀气, extra=143_143123/180139046, update=null)
+NovelChapter(name=第601章 来演一场戏吧 求月票(〃?〃), extra=143_143123/180128970, update=null)
+NovelChapter(name=第600章 是什么给了你勇气, extra=143_143123/180128969, update=null)
+NovelChapter(name=第599章 不合格（防盗加更）, extra=143_143123/180128968, update=null)
+NovelChapter(name=第598章 你暴露了（防盗加更）, extra=143_143123/180128967, update=null)
+NovelChapter(name=第597章 无车生还（防盗加更）, extra=143_143123/180128965, update=null)
+NovelChapter(name=第596章 不要拿着人家的头, extra=143_143123/180114517, update=null)
+NovelChapter(name=第595章 血腥之夜, extra=143_143123/180114504, update=null)
+NovelChapter(name=第594章 乌丸莲耶 求月票(?????), extra=143_143123/180099946, update=null)
+NovelChapter(name=第593章 你老婆无了, extra=143_143123/180099945, update=null)
+NovelChapter(name=第592章 柯学防腐 加更to盟主【鼓角手】, extra=143_143123/180099944, update=null)
+NovelChapter(name=第591章 听说你们很熟 加更to盟主【鼓角手】, extra=143_143123/180099943, update=null)
+NovelChapter(name=第590章 黑…松田到底怎么苟住的, extra=143_143123/180093165, update=null)
+NovelChapter(name=第589章 将死之人, extra=143_143123/180093164, update=null)
+NovelChapter(name=第588章 松田的家族仇怨 求月票o(〃'▽'〃)o, extra=143_143123/180074277, update=null)
+NovelChapter(name=第587章 你的委托人死了？我的也是, extra=143_143123/180074276, update=null)
+NovelChapter(name=第586章 墨镜定律 加更to盟主【鼓角手】, extra=143_143123/180074275, update=null)
+NovelChapter(name=第585章 你怎么又诈尸了, extra=143_143123/180065882, update=null)
+NovelChapter(name=第584章 碰瓷熟练工, extra=143_143123/180061576, update=null)
+NovelChapter(name=第583章 江夏活到现在不容易, extra=143_143123/180044521, update=null)
+NovelChapter(name=第582章 抢劫侦探, extra=143_143123/180044520, update=null)
+NovelChapter(name=第581章 基德：安室透有问题 求月票*罒▽罒*, extra=143_143123/180031317, update=null)
+NovelChapter(name=第580章 你来送菜了啊, extra=143_143123/180031316, update=null)
+NovelChapter(name=第579章 雾天狗vs江夏, extra=143_143123/180021302, update=null)
+NovelChapter(name=第578章 偷袭侦探的步骤, extra=143_143123/180015338, update=null)
+NovelChapter(name=第577章 想扮成江夏, extra=143_143123/180009503, update=null)
+NovelChapter(name=第576章 目标是boss老家, extra=143_143123/180002929, update=null)
+NovelChapter(name=第575章 乌佐的新武器呢 求月票(???〃 ), extra=143_143123/179992022, update=null)
+NovelChapter(name=第574章 决定命运的时刻, extra=143_143123/179992021, update=null)
+NovelChapter(name=第573章 乌佐的盛情招待 加更to盟主【笨蛋哦耶2333】, extra=143_143123/179983073, update=null)
+NovelChapter(name=第572章 满血复活的假侦探, extra=143_143123/179980214, update=null)
+NovelChapter(name=第571章 工具人都去哪了, extra=143_143123/179980213, update=null)
+NovelChapter(name=第570章 打包kill 加更to盟主【笨蛋哦耶2333】, extra=143_143123/179972511, update=null)
+NovelChapter(name=第569章 琴酒的惯用方式 求月票*罒▽罒*, extra=143_143123/179967835, update=null)
+NovelChapter(name=第568章 剧本对了，人不对, extra=143_143123/179967834, update=null)
+NovelChapter(name=第567章 我不想再吃饼干了 加更to盟主【笨蛋哦耶2333】, extra=143_143123/179959898, update=null)
+NovelChapter(name=第566章 伏特加杀人事件, extra=143_143123/179950419, update=null)
+NovelChapter(name=第565章 新款杀气, extra=143_143123/179950418, update=null)
+NovelChapter(name=第564章 伏特加：给乌佐递点心 求月票(?????), extra=143_143123/179935956, update=null)
+NovelChapter(name=第563章 找同事聊个天吧, extra=143_143123/179935955, update=null)
+NovelChapter(name=第562章 部下都去哪了, extra=143_143123/179921689, update=null)
+NovelChapter(name=第561章 算不准的, extra=143_143123/179921688, update=null)
+NovelChapter(name=第560章 对乌佐的观测结论 求月票(?????), extra=143_143123/179907228, update=null)
+NovelChapter(name=第559章 挖个坑埋了吧, extra=143_143123/179907227, update=null)
+NovelChapter(name=第558章 和波本的仇恨起因, extra=143_143123/179894987, update=null)
+NovelChapter(name=第557章 求求你别邀请他, extra=143_143123/179894986, update=null)
+NovelChapter(name=第556章 琴酒，你小弟在摸鱼, extra=143_143123/179894794, update=null)
+NovelChapter(name=第555章 原来你是中二病啊, extra=143_143123/179887714, update=null)
+NovelChapter(name=第554章 伏特加：波本，救我！, extra=143_143123/179887133, update=null)
+NovelChapter(name=第553章 乌佐ptsd患者的噩梦, extra=143_143123/179884089, update=null)
+NovelChapter(name=第552章 你为什么开车不看路, extra=143_143123/179884088, update=null)
+NovelChapter(name=第551章 消失的公安和“天堂问答”, extra=143_143123/179871762, update=null)
+NovelChapter(name=第550章 拒绝命运的安排, extra=143_143123/179871761, update=null)
+NovelChapter(name=第549章 波本他付出了太多 求月票(?????), extra=143_143123/179860403, update=null)
+NovelChapter(name=第548章 想跟上看看, extra=143_143123/179860402, update=null)
+NovelChapter(name=第547章 琴酒你看看波本, extra=143_143123/179853140, update=null)
+NovelChapter(name=第546章 贝尔摩德：江夏失联了？, extra=143_143123/179846797, update=null)
+NovelChapter(name=第545章 封印解除, extra=143_143123/179846796, update=null)
+NovelChapter(name=第544章 心理医生不想再被鞭尸了, extra=143_143123/179832266, update=null)
+NovelChapter(name=第543章 侦探的事，不丢人, extra=143_143123/179832265, update=null)
+NovelChapter(name=第542章 把江夏收容掉吧, extra=143_143123/179825903, update=null)
+NovelChapter(name=第541章 我难道是预言家？, extra=143_143123/179825902, update=null)
+NovelChapter(name=第540章 老板，你怎么了老板（防盗加更）, extra=143_143123/179825901, update=null)
+NovelChapter(name=第539章 铃木家的变态爱好 求月票(???〃 ), extra=143_143123/179804506, update=null)
+NovelChapter(name=第538章 江夏你快变, extra=143_143123/179804505, update=null)
+NovelChapter(name=第537章 秀一的求生本能 求月票( ?▽` ), extra=143_143123/179791630, update=null)
+NovelChapter(name=第536章 安室透：我想走, extra=143_143123/179791629, update=null)
+NovelChapter(name=第535章 救到了奇怪的生物, extra=143_143123/179779055, update=null)
+NovelChapter(name=第534章 被伏特加包围的感觉, extra=143_143123/179779054, update=null)
+NovelChapter(name=第533章 闲着也是闲着，搞点事吧（月票加更）, extra=143_143123/179772199, update=null)
+NovelChapter(name=第532章 组织里的骚扰者, extra=143_143123/179768660, update=null)
+NovelChapter(name=第531章 我只是想离开东京, extra=143_143123/179766401, update=null)
+NovelChapter(name=第530章 来自库拉索的谴责, extra=143_143123/179760246, update=null)
+NovelChapter(name=第529章 蛊惑失败→送命, extra=143_143123/179754543, update=null)
+NovelChapter(name=第528章 库拉索怎么也来了 求月票?(? ? ??), extra=143_143123/179750411, update=null)
+NovelChapter(name=第527章 乌佐试用套餐（月票加更）, extra=143_143123/179750410, update=null)
+NovelChapter(name=第526章 朗姆：乌佐干劲太足了, extra=143_143123/179735705, update=null)
+NovelChapter(name=第525章 看到这个部下了吗？我的, extra=143_143123/179735704, update=null)
+NovelChapter(name=第524章 朗姆不要啊, extra=143_143123/179721000, update=null)
+NovelChapter(name=第523章 老同学你要争气 求月票( ?▽` ), extra=143_143123/179720999, update=null)
+NovelChapter(name=第522章 被道具迫害的酒们, extra=143_143123/179720998, update=null)
+NovelChapter(name=第521章 随机捕捉一名幸运公安, extra=143_143123/179698836, update=null)
+NovelChapter(name=第520章 新的心理医生, extra=143_143123/179698835, update=null)
+NovelChapter(name=第519章 琴酒没被抓怎么想都是公安的错, extra=143_143123/179669599, update=null)
+NovelChapter(name=第518章 赤井家的兄弟 求月票(づ?ど), extra=143_143123/179669590, update=null)
+NovelChapter(name=第517章 报警把安室透抓了吧, extra=143_143123/179656075, update=null)
+NovelChapter(name=第516章 黑影般的江户川柯南, extra=143_143123/179656074, update=null)
+NovelChapter(name=第515章 正确的开窗方式, extra=143_143123/179645288, update=null)
+NovelChapter(name=第514章 老同学堕落了！, extra=143_143123/179645287, update=null)
+NovelChapter(name=第513章 琴酒：波本好惨 求月票罒ω罒, extra=143_143123/179633613, update=null)
+NovelChapter(name=第512章 西内，波本, extra=143_143123/179633612, update=null)
+NovelChapter(name=第511章 咕掉琴酒吧, extra=143_143123/179621375, update=null)
+NovelChapter(name=第510章 安室透的地狱之旅, extra=143_143123/179621374, update=null)
+NovelChapter(name=第509章 麻药点心不用扔, extra=143_143123/179614560, update=null)
+NovelChapter(name=第508章 尝尝这包曲奇饼 求月票(?????), extra=143_143123/179614559, update=null)
+NovelChapter(name=第507章 伏特加的麻药点心 加更to盟主【诸界之匙】, extra=143_143123/179609796, update=null)
+NovelChapter(name=第506章 看，给组织打的钱 加更to盟主【诸界之匙】, extra=143_143123/179609795, update=null)
+NovelChapter(name=第505章 消失的松田 加更to盟主【诸界之匙】, extra=143_143123/179609794, update=null)
+NovelChapter(name=第504章 安室透：……诈尸？ 求月票(づ?ど), extra=143_143123/179599308, update=null)
+NovelChapter(name=第503章 松田阵平没有坏心思, extra=143_143123/179597431, update=null)
+NovelChapter(name=第502章 乌佐速来背锅, extra=143_143123/179586044, update=null)
+NovelChapter(name=第501章 可疑包裹, extra=143_143123/179586043, update=null)
+NovelChapter(name=第500章 隐藏的幕后黑手 求月票(?????), extra=143_143123/179573724, update=null)
+NovelChapter(name=第499章 江夏真的很敬业, extra=143_143123/179573723, update=null)
+NovelChapter(name=第498章 事件体质的归属人, extra=143_143123/179563265, update=null)
+NovelChapter(name=第497章 侦探习性观察, extra=143_143123/179563264, update=null)
+NovelChapter(name=第496章 老同学可真是个好人啊 求月票(づ?ど), extra=143_143123/179557372, update=null)
+NovelChapter(name=第495章 你看上去好眼熟, extra=143_143123/179549046, update=null)
+NovelChapter(name=第494章 错误的搭讪方式示例, extra=143_143123/179549045, update=null)
+NovelChapter(name=第493章 想看这个乌佐吗, extra=143_143123/179538558, update=null)
+NovelChapter(name=第492章 卧底确实很难抓, extra=143_143123/179538557, update=null)
+NovelChapter(name=第491章 绑匪安室透 求月票(???〃 ), extra=143_143123/179525174, update=null)
+NovelChapter(name=第490章 风见裕也的调查报告, extra=143_143123/179525173, update=null)
+NovelChapter(name=第489章 江夏和乌佐的相遇, extra=143_143123/179514569, update=null)
+NovelChapter(name=第488章 “松田佑”又是什么鬼, extra=143_143123/179514568, update=null)
+NovelChapter(name=第487章 可怕的“黑泽佐”, extra=143_143123/179504594, update=null)
+NovelChapter(name=第486章 来点消毒水 求月票(?????), extra=143_143123/179504593, update=null)
+NovelChapter(name=第485章 突然消失的松田, extra=143_143123/179492339, update=null)
+NovelChapter(name=第484章 不负责的屑灵媒, extra=143_143123/179492338, update=null)
+NovelChapter(name=第483章 技能的效果, extra=143_143123/179482399, update=null)
+NovelChapter(name=第482章 鬼中食物链, extra=143_143123/179482398, update=null)
+NovelChapter(name=第481章 鬼胎松田阵平 求月票ヽ(〃?〃)?~。, extra=143_143123/179472328, update=null)
+NovelChapter(name=第480章 契约了解一下, extra=143_143123/179472327, update=null)
+NovelChapter(name=第479章 杯户町商厦的摩天轮, extra=143_143123/179459803, update=null)
+NovelChapter(name=第478章 不要，真不要, extra=143_143123/179459802, update=null)
+NovelChapter(name=第477章 魔力的退场, extra=143_143123/179450381, update=null)
+NovelChapter(name=第476章 不死心的尝试 求月票(?ˇ?ˇ?), extra=143_143123/179447416, update=null)
+NovelChapter(name=第475章 新娘莫的了 加更to盟主【至秽之暗】, extra=143_143123/179447415, update=null)
+NovelChapter(name=第474章 谢谢你，年轻人 加更to盟主【至秽之暗】, extra=143_143123/179447414, update=null)
+NovelChapter(name=第473章 警方好帮手，组织好员工 加更to盟主【至秽之暗】, extra=143_143123/179447413, update=null)
+NovelChapter(name=第472章 高木警官的剧本, extra=143_143123/179435883, update=null)
+NovelChapter(name=第471章 你是预言家？ 求月票(づ?ど), extra=143_143123/179435882, update=null)
+NovelChapter(name=第470章 这个侦探值得灭口, extra=143_143123/179426186, update=null)
+NovelChapter(name=第469章 在？为什么鸽我？, extra=143_143123/179426185, update=null)
+NovelChapter(name=第468章 闭门羹的滋味好陌生, extra=143_143123/179414523, update=null)
+NovelChapter(name=第467章 “杀了吗”“杀了”, extra=143_143123/179414522, update=null)
+NovelChapter(name=第466章 灰原哀的领域（防盗加更）求月票°????°, extra=143_143123/179414521, update=null)
+NovelChapter(name=第465章 如何抢救灰原哀的良心, extra=143_143123/179403670, update=null)
+NovelChapter(name=第464章 江夏的恐怖画风, extra=143_143123/179403669, update=null)
+NovelChapter(name=第463章 灰原哀是个好卧底（月票加更）, extra=143_143123/179398246, update=null)
+NovelChapter(name=第462章 你为什么不回家, extra=143_143123/179392376, update=null)
+NovelChapter(name=第461章 学习方法 求月票(???〃 ), extra=143_143123/179392375, update=null)
+NovelChapter(name=第460章 幕后黑手柯南, extra=143_143123/179380645, update=null)
+NovelChapter(name=第459章 在破了，真的在破了, extra=143_143123/179380644, update=null)
+NovelChapter(name=第458章 你不要再挂机了（防盗加更）, extra=143_143123/179380643, update=null)
+NovelChapter(name=第457章 安室透：让我看看（月票加更）, extra=143_143123/179367553, update=null)
+NovelChapter(name=第456章 基德牌蓄电池 求月票(づ?ど), extra=143_143123/179367552, update=null)
+NovelChapter(name=第455章 雾天狗捕获方案, extra=143_143123/179367551, update=null)
+NovelChapter(name=第454章 妖怪都是骗子（月票加更）, extra=143_143123/179356453, update=null)
+NovelChapter(name=第453章 魔女都是骗子, extra=143_143123/179352181, update=null)
+NovelChapter(name=第452章 死了，但没完全死, extra=143_143123/179352180, update=null)
+NovelChapter(name=第451章 问就是全都要 （月票加更）, extra=143_143123/179344326, update=null)
+NovelChapter(name=第450章 铃木园子的粉丝素养, extra=143_143123/179341920, update=null)
+NovelChapter(name=第449章 妖怪魔女怪盗食物链, extra=143_143123/179341919, update=null)
+NovelChapter(name=第448章 惨遭捕获的基德 （月票加更）, extra=143_143123/179327803, update=null)
+NovelChapter(name=第447章 安室透的扒马进度, extra=143_143123/179327802, update=null)
+NovelChapter(name=第446章 袭警之锅 求月票~\(≧▽≦)/~, extra=143_143123/179327801, update=null)
+NovelChapter(name=第445章 友军互殴, extra=143_143123/179310771, update=null)
+NovelChapter(name=第444章 开门见喜, extra=143_143123/179310770, update=null)
+NovelChapter(name=第443章 江夏应该是个好保镖（月票加更）, extra=143_143123/179308826, update=null)
+NovelChapter(name=第442章 灰原哀：今天的佚名小姐不对劲, extra=143_143123/179298452, update=null)
+NovelChapter(name=第441章 宫野明美的自由鬼生 求月票(?????), extra=143_143123/179298451, update=null)
+NovelChapter(name=第440章 独立版傀儡, extra=143_143123/179283766, update=null)
+NovelChapter(name=第439章 在？坐跳楼机吗, extra=143_143123/179283765, update=null)
+NovelChapter(name=第438章 这只妖怪是我的了！（防盗加更）, extra=143_143123/179283764, update=null)
+NovelChapter(name=第437章 雾天狗还是基德？ 求月票(づ?ど), extra=143_143123/179271799, update=null)
+NovelChapter(name=第436章 不要，真的不要（拉开口袋）, extra=143_143123/179271798, update=null)
+NovelChapter(name=第435章 应该早点认识你, extra=143_143123/179260089, update=null)
+NovelChapter(name=第434章 你好慢啊, extra=143_143123/179260088, update=null)
+NovelChapter(name=第433章 暴躁的雾天狗, extra=143_143123/179248487, update=null)
+NovelChapter(name=第432章 组团找魔女, extra=143_143123/179248486, update=null)
+NovelChapter(name=第431章 来自小泉红子的诅咒 求月票(?????), extra=143_143123/179242641, update=null)
+NovelChapter(name=第430章 怪盗的翻车史, extra=143_143123/179237036, update=null)
+NovelChapter(name=第429章 正确的扒马甲方式, extra=143_143123/179221292, update=null)
+NovelChapter(name=第428章 三线操作, extra=143_143123/179221291, update=null)
+NovelChapter(name=第427章 扒下乌佐马甲的步骤, extra=143_143123/179207456, update=null)
+NovelChapter(name=第426章 梦境的提示 求月票O(∩_∩)O, extra=143_143123/179207455, update=null)
+NovelChapter(name=第425章 乌佐和我江夏有什么关系, extra=143_143123/179194170, update=null)
+NovelChapter(name=第424章 无良酒厂压迫外围成员, extra=143_143123/179194169, update=null)
+NovelChapter(name=第423章 线索连连看（防盗加更）, extra=143_143123/179194168, update=null)
+NovelChapter(name=第422章 乌佐的保密级别, extra=143_143123/179181378, update=null)
+NovelChapter(name=第421章 这是一瓶什么酒？ 求月票(?????), extra=143_143123/179181377, update=null)
+NovelChapter(name=第420章 情人节的余波, extra=143_143123/179170347, update=null)
+NovelChapter(name=第419章 江夏是个好员工, extra=143_143123/179170346, update=null)
+NovelChapter(name=第418章 灰原哀：琴酒不对劲, extra=143_143123/179155673, update=null)
+NovelChapter(name=第417章 组织和公安选谁呢, extra=143_143123/179155672, update=null)
+NovelChapter(name=第416章 boss在？给点黄金 求月票~\(≧▽≦)/~, extra=143_143123/179148515, update=null)
+NovelChapter(name=第415章 这【哔——】不要也罢（补更）, extra=143_143123/179143689, update=null)
+NovelChapter(name=第414章 女装大佬的成长之路（补更）, extra=143_143123/179143688, update=null)
+NovelChapter(name=第413章 夜访浅井成实, extra=143_143123/179143687, update=null)
+NovelChapter(name=第412章 注意安全, extra=143_143123/179143686, update=null)
+NovelChapter(name=第411章 组织黑名单 求月票(?????), extra=143_143123/179132496, update=null)
+NovelChapter(name=第410章 你鬼没了, extra=143_143123/179132495, update=null)
+NovelChapter(name=第409章 拒绝看戏从我做起（防盗加更）, extra=143_143123/179132494, update=null)
+NovelChapter(name=第408章 乌佐和伏特加的平衡点, extra=143_143123/179118951, update=null)
+NovelChapter(name=第407章 你有问题, extra=143_143123/179118950, update=null)
+NovelChapter(name=第406章 赤井秀一的妙用 求月票ヾ(????)?, extra=143_143123/179105955, update=null)
+NovelChapter(name=第405章 你会读心？, extra=143_143123/179105954, update=null)
+NovelChapter(name=第404章 琴酒：想回东京了, extra=143_143123/179105953, update=null)
+NovelChapter(name=第403章 那位大人的想法 加更to盟主【流云笛】, extra=143_143123/179097536, update=null)
+NovelChapter(name=第402章 你为什么左脚先上船 加更to盟主【流云笛】, extra=143_143123/179097535, update=null)
+NovelChapter(name=第401章 乌佐勾结外人了 加更to盟主【流云笛】, extra=143_143123/179097534, update=null)
+NovelChapter(name=第400章 伏特加的反击机会 求月票(?????), extra=143_143123/179092683, update=null)
+NovelChapter(name=第399章 琴酒投毒事件（合章）, extra=143_143123/179079216, update=null)
+NovelChapter(name=第398章 奇怪的新马甲（合章）, extra=143_143123/179067845, update=null)
+NovelChapter(name=第396章 《江夏观察笔记》 求月票(???〃 ), extra=143_143123/179043707, update=null)
+NovelChapter(name=第395章 翻滚吧，哀酱（合章）, extra=143_143123/179029856, update=null)
+NovelChapter(name=第394章 是你在咬轮胎吗（合章）, extra=143_143123/179015491, update=null)
+NovelChapter(name=第393章 经验丰富的灰原哀（合章）, extra=143_143123/178997311, update=null)
+NovelChapter(name=第392章 伏特加：大哥这衣服不错…（合章）, extra=143_143123/178983797, update=null)
+NovelChapter(name=第391章 远程待机的黑衣人×2 求月票(?????), extra=143_143123/178972037, update=null)
+NovelChapter(name=第390章 蜘蛛大人（合章）, extra=143_143123/178959756, update=null)
+NovelChapter(name=第389章 高傲的名侦探（合章）, extra=143_143123/178948142, update=null)
+2022-04-29 00:00:00
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO Biquge5200 - connect http://www.biqu5200.net/143_143123/
+[Test worker] DEBUG Biquge5200 - body 
+[Test worker] DEBUG Biquge5200 - load cookies []
+[Test worker] DEBUG Biquge5200 - after filter cookies []
+[Test worker] DEBUG Biquge5200 - response http://www.biqu5200.net/143_143123/
+[Test worker] DEBUG Biquge5200 - request.headers Referer: http://www.biqu5200.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.biqu5200.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Biquge5200 - response.headers Server: nginx
+Date: Fri, 29 Apr 2022 20:08:37 GMT
+Content-Type: text/html;charset=gbk
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=300
+
+[Test worker] INFO Biquge5200 - connect http://www.biqu5200.net/modules/article/search.php?searchkey=%E9%83%BD%E5%B8%82
+[Test worker] DEBUG Biquge5200 - body 
+[Test worker] DEBUG Biquge5200 - load cookies []
+[Test worker] DEBUG Biquge5200 - after filter cookies []
+[Test worker] DEBUG Biquge5200 - response http://www.biqu5200.net/modules/article/search.php?searchkey=%E9%83%BD%E5%B8%82
+[Test worker] DEBUG Biquge5200 - request.headers Referer: http://www.biqu5200.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.biqu5200.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Biquge5200 - response.headers Server: nginx
+Date: Fri, 29 Apr 2022 20:08:38 GMT
+Content-Type: text/html;charset=gbk
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=3600
+
+[Test worker] INFO Biquge5200 - connect http://www.biqu5200.net/modules/article/search.php?searchkey=%E6%9F%AF%E5%AD%A6%E6%8D%A1%E5%B0%B8%E4%BA%BA
+[Test worker] DEBUG Biquge5200 - body 
+[Test worker] DEBUG Biquge5200 - load cookies []
+[Test worker] DEBUG Biquge5200 - after filter cookies []
+[Test worker] DEBUG Biquge5200 - response http://www.biqu5200.net/modules/article/search.php?searchkey=%E6%9F%AF%E5%AD%A6%E6%8D%A1%E5%B0%B8%E4%BA%BA
+[Test worker] DEBUG Biquge5200 - request.headers Referer: http://www.biqu5200.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.biqu5200.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Biquge5200 - response.headers Server: nginx
+Date: Fri, 29 Apr 2022 20:08:38 GMT
+Content-Type: text/html;charset=gbk
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=3600
+
+[Test worker] INFO Biquge5200 - connect http://www.biqu5200.net/143_143123/178948142.html
+[Test worker] DEBUG Biquge5200 - body 
+[Test worker] DEBUG Biquge5200 - load cookies []
+[Test worker] DEBUG Biquge5200 - after filter cookies []
+[Test worker] DEBUG Biquge5200 - response http://www.biqu5200.net/143_143123/178948142.html
+[Test worker] DEBUG Biquge5200 - request.headers Referer: http://www.biqu5200.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Host: www.biqu5200.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+[Test worker] DEBUG Biquge5200 - response.headers Server: nginx
+Date: Fri, 29 Apr 2022 20:08:39 GMT
+Content-Type: text/html;charset=gbk
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=300
+
+[Test worker] INFO Biquge5200 - connect http://www.biqu5200.net/143_143123/
+[Test worker] DEBUG Biquge5200 - body 
+[Test worker] DEBUG Biquge5200 - load cookies []
+[Test worker] DEBUG Biquge5200 - after filter cookies []
+[Test worker] DEBUG Biquge5200 - response http://www.biqu5200.net/143_143123/
+[Test worker] DEBUG Biquge5200 - request.headers null
+[Test worker] DEBUG Biquge5200 - response.headers Server: nginx
+Date: Fri, 29 Apr 2022 20:08:37 GMT
+Content-Type: text/html;charset=gbk
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=300
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.1</a> at Apr 30, 2022, 4:09:36 AM</p>
+</div>
+</div>
+</body>
+</html>
