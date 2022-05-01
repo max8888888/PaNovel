@@ -159,5 +159,14 @@ open class NovelListAdapter(
         notifyItemMoved(from, to)
     }
 
+    fun openFirstBook(context: Context?){
+        try {
+            context?.let {
+                NovelTextActivity.start(it, _data[0].novel)
+            }
+        } catch (e: Exception) {
+        }
+    }
+    
     abstract class BaseViewHolder(itemView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView)
 }
