@@ -58,6 +58,12 @@ class BookshelfFragment : androidx.fragment.app.Fragment(), IView, AnkoLogger {
         }
 
         presenter.attach(this)
+        
+        Handler().postDelayed(object : Runnable{
+            override fun run() {
+                novelListAdapter.openFirstBook(context)
+            }
+        }, 500)
     }
 
     override fun onDestroyView() {
